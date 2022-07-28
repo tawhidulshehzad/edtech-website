@@ -27,7 +27,6 @@ body {
   font-size: 45px;
   margin-top: 25px;
   font-weight: 600;
-
 }
 .carousel-caption P {
   width: 60%;
@@ -35,6 +34,80 @@ body {
   font-size: 18px;
   line-height: 1.9;
 }
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0, 0.7);
+  z-index: 1;
+  opacity: 0.8;
+}
+.w-100 {
+  height: 100vh;
+}
 
+/* Responsive CSS  */
 
-
+@media only screen and (min-width: 821px) and (max-width: 991px) {
+  .carousel-caption {
+    bottom: 80px;
+  }
+  .carousel-caption h5 {
+    font-size: 20px;
+  }
+  .carousel-caption P {
+    padding: 10px 5px;
+    font-size: 15px;
+    width: 100%;
+  }
+  .w-100 {
+    height: 80vh;
+  }
+  .carousel-item {
+    height: 80vh;
+    min-height: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 820px) {
+  .carousel-caption {
+    bottom: 280px;
+  }
+  .carousel-caption h5 {
+    font-size: 25px;
+  }
+  .carousel-caption P {
+    width: 100%;
+    font-size: 15px;
+  }
+  .w-100 {
+    height: 80vh;
+  }
+  .carousel-item {
+    height: 80vh;
+    min-height: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .carousel-caption {
+    bottom: 25px;
+  }
+  .carousel-caption h5 {
+    font-size: 20px;
+  }
+  .carousel-caption P {
+    padding: 5px 0px;
+    font-size: 12px;
+    line-height: 1.6;
+    width: 100%;
+  }
+  .w-100 {
+    height: 40vh;
+  }
+  .carousel-item {
+    height: 40vh;
+    min-height: 10px;
+  }
+}
