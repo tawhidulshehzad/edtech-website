@@ -1,5 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed&family=Heebo:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed&family=Heebo:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap");
 /* Font family */
-body { 
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
+/* Header */
+.my-color {
+  border: 1px solid #d55e5e7e;
+}
+.menu img {
+  width: 15px;
+}
+.navbar-toggler:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.05rem;
+}
+/* top banner */
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  margin-top: 25px;
+  font-weight: 600;
+
+}
+.carousel-caption P {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+
+
