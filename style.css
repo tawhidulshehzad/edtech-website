@@ -71,6 +71,9 @@ body {
     min-height: 10px;
   }
 }
+.text-center-p {
+  width: 100px;
+}
 @media only screen and (min-width: 768px) and (max-width: 820px) {
   .carousel-caption {
     bottom: 280px;
