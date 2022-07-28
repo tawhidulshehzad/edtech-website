@@ -51,6 +51,12 @@ body {
 .course-title h1 {
   font-weight: 600;
 }
+.companies img {
+  width: 15%;
+}
+.social p a i {
+  color: #fff;
+}
 /* Responsive CSS  */
 
 @media only screen and (min-width: 821px) and (max-width: 991px) {
@@ -80,8 +86,12 @@ body {
     font-size: 10px;
   }
   /* register now */
-  .register-now, .register-button {
+  .register-now,
+  .register-button {
     text-align: center;
+  }
+  .bonous-section {
+    display: none;
   }
 }
 .text-center-p {
@@ -112,8 +122,12 @@ body {
   .course-title p {
     font-size: 10px;
   }
-  .register-now, .register-button {
+  .register-now,
+  .register-button {
     text-align: center;
+  }
+  .bonous-section {
+    display: none;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -151,7 +165,11 @@ body {
   .course-title p {
     font-size: 10px;
   }
-  .register-now, .register-button {
+  .register-now,
+  .register-button {
     text-align: center;
+  }
+  .bonous-section {
+    display: none;
   }
 }
